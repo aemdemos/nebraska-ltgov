@@ -1,0 +1,294 @@
+{
+  "url": "https://ltgov.nebraska.gov",
+  "sanitizedPath": "/index",
+  "autoDetect": false,
+  "mapping": [
+    {
+      "id": "1",
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "1-1",
+          "blocks": [
+            {
+              "id": "box-id-1722200707",
+              "x": 0,
+              "y": 0,
+              "width": 1268,
+              "height": 84,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgb(148, 0, 211)",
+              "mapping": "header",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id-229446221",
+              "x": 0,
+              "y": 84,
+              "width": 1268,
+              "height": 50,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgb(75, 0, 130)",
+              "mapping": "header",
+              "customBlockName": ""
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "path": "/index",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id-1722200738",
+              "x": 49,
+              "y": 134,
+              "width": 1170,
+              "height": 3191,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/aside[1]",
+                  "xpathWithDetails": "/html[@class=\"js\"]/body[@class=\"path-frontpage page-node-type-page has-glyphicons\"]/div[@class=\"dialog-off-canvas-main-canvas\"]/div[@class=\"bkg-wrapper\"]/div[@class=\"bkg-bkg\"]/div[@class=\"container\"]/div[@class=\"row\"]/aside[@class=\"col-sm-3\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]",
+                  "xpathWithDetails": "id(\"main-content\")"
+                }
+              ],
+              "color": "rgb(0, 0, 255)",
+              "mapping": "columns",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id--1507753349",
+              "x": 49,
+              "y": 134,
+              "width": 292,
+              "height": 388,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/aside[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 0, 255, 0.4)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id--1671673170",
+              "x": 341,
+              "y": 134,
+              "width": 877,
+              "height": 3191,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]",
+              "layout": {
+                "numCols": 1,
+                "numRows": 2
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/h1[1]",
+                  "xpathWithDetails": "id(\"main-content\")/div[@class=\"pushoff\"]/div[@class=\"region region-content\"]/h1[@class=\"page-header\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]",
+                  "xpathWithDetails": "id(\"block-ltgov-views-block-governor-news-block-1\")"
+                }
+              ],
+              "color": "rgba(0, 0, 255, 0.4)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id--1389925890",
+              "x": 346,
+              "y": 139,
+              "width": 867,
+              "height": 58,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/h1[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 0, 255, 0.3)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id--422915330",
+              "x": 361,
+              "y": 208,
+              "width": 837,
+              "height": 552,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 0, 255, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id--422915299",
+              "x": 361,
+              "y": 750,
+              "width": 837,
+              "height": 274,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 0, 255, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id--422915268",
+              "x": 361,
+              "y": 1014,
+              "width": 837,
+              "height": 589,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 0, 255, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id--422915237",
+              "x": 361,
+              "y": 1594,
+              "width": 837,
+              "height": 465,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]",
+              "layout": {
+                "numCols": 1,
+                "numRows": 4
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/div[1]",
+                  "xpathWithDetails": "id(\"block-ltgov-views-block-governor-news-block-1\")/div[@class=\"form-group\"]/div[@class=\"view view-governor-news view-id-governor_news view-display-id-block_1 js-view-dom-id-852ebe166d03cdd13856e72f97095ccca6516a59e0e87c1bb24a3c0467faea07\"]/div[@class=\"view-content\"]/div[@class=\"item-list\"]/div[@class=\"views-field views-field-title\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/div[2]",
+                  "xpathWithDetails": "id(\"block-ltgov-views-block-governor-news-block-1\")/div[@class=\"form-group\"]/div[@class=\"view view-governor-news view-id-governor_news view-display-id-block_1 js-view-dom-id-852ebe166d03cdd13856e72f97095ccca6516a59e0e87c1bb24a3c0467faea07\"]/div[@class=\"view-content\"]/div[@class=\"item-list\"]/div[@class=\"views-field views-field-timestamp\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/div[3]",
+                  "xpathWithDetails": "id(\"block-ltgov-views-block-governor-news-block-1\")/div[@class=\"form-group\"]/div[@class=\"view view-governor-news view-id-governor_news view-display-id-block_1 js-view-dom-id-852ebe166d03cdd13856e72f97095ccca6516a59e0e87c1bb24a3c0467faea07\"]/div[@class=\"view-content\"]/div[@class=\"item-list\"]/div[@class=\"views-field views-field-description\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/div[4]",
+                  "xpathWithDetails": "id(\"block-ltgov-views-block-governor-news-block-1\")/div[@class=\"form-group\"]/div[@class=\"view view-governor-news view-id-governor_news view-display-id-block_1 js-view-dom-id-852ebe166d03cdd13856e72f97095ccca6516a59e0e87c1bb24a3c0467faea07\"]/div[@class=\"view-content\"]/div[@class=\"item-list\"]/div[@class=\"views-field views-field-link\"]"
+                }
+              ],
+              "color": "rgba(0, 0, 255, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id--1377508568",
+              "x": 361,
+              "y": 1651,
+              "width": 837,
+              "height": 341,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/div[3]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(0, 0, 255, 0.1)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            },
+            {
+              "id": "box-id--422915206",
+              "x": 361,
+              "y": 2049,
+              "width": 837,
+              "height": 1261,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]",
+              "layout": {
+                "numCols": 1,
+                "numRows": 4
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/div[1]",
+                  "xpathWithDetails": "id(\"block-ltgov-views-block-governor-news-block-1\")/div[@class=\"form-group\"]/div[@class=\"view view-governor-news view-id-governor_news view-display-id-block_1 js-view-dom-id-852ebe166d03cdd13856e72f97095ccca6516a59e0e87c1bb24a3c0467faea07\"]/div[@class=\"view-content\"]/div[@class=\"item-list\"]/div[@class=\"views-field views-field-title\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/div[2]",
+                  "xpathWithDetails": "id(\"block-ltgov-views-block-governor-news-block-1\")/div[@class=\"form-group\"]/div[@class=\"view view-governor-news view-id-governor_news view-display-id-block_1 js-view-dom-id-852ebe166d03cdd13856e72f97095ccca6516a59e0e87c1bb24a3c0467faea07\"]/div[@class=\"view-content\"]/div[@class=\"item-list\"]/div[@class=\"views-field views-field-timestamp\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/div[3]",
+                  "xpathWithDetails": "id(\"block-ltgov-views-block-governor-news-block-1\")/div[@class=\"form-group\"]/div[@class=\"view view-governor-news view-id-governor_news view-display-id-block_1 js-view-dom-id-852ebe166d03cdd13856e72f97095ccca6516a59e0e87c1bb24a3c0467faea07\"]/div[@class=\"view-content\"]/div[@class=\"item-list\"]/div[@class=\"views-field views-field-description\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/section[1]/div[2]/div[1]/section[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/div[4]",
+                  "xpathWithDetails": "id(\"block-ltgov-views-block-governor-news-block-1\")/div[@class=\"form-group\"]/div[@class=\"view view-governor-news view-id-governor_news view-display-id-block_1 js-view-dom-id-852ebe166d03cdd13856e72f97095ccca6516a59e0e87c1bb24a3c0467faea07\"]/div[@class=\"view-content\"]/div[@class=\"item-list\"]/div[@class=\"views-field views-field-link\"]"
+                }
+              ],
+              "color": "rgba(0, 0, 255, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "path": "/footer",
+      "sections": [
+        {
+          "id": "3-1",
+          "blocks": [
+            {
+              "id": "box-id-1722200769",
+              "x": 0,
+              "y": 3326,
+              "width": 1268,
+              "height": 148,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
+              "layout": {
+                "numCols": 1,
+                "numRows": 1
+              },
+              "color": "rgb(0, 255, 0)",
+              "mapping": "defaultContent",
+              "customBlockName": ""
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
