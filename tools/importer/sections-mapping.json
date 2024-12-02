@@ -23,22 +23,7 @@
               },
               "color": "rgb(148, 0, 211)",
               "mapping": "header",
-              "customBlockName": ""
-            },
-            {
-              "id": "box-id-229446221",
-              "x": 0,
-              "y": 84,
-              "width": 1268,
-              "height": 50,
-              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgb(75, 0, 130)",
-              "mapping": "header",
-              "customBlockName": ""
+              "customBlockName": "header"
             }
           ],
           "settings": {}
@@ -52,6 +37,21 @@
         {
           "id": "2-1",
           "blocks": [
+            {
+              "id": "box-id-229446221",
+              "x": 0,
+              "y": 84,
+              "width": 1807,
+              "height": 50,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgb(75, 0, 130)",
+              "mapping": "defaultContent",
+              "customBlockName": "aidefault1"
+            },
             {
               "id": "box-id-1722200738",
               "x": 49,
@@ -75,7 +75,7 @@
               ],
               "color": "rgb(0, 0, 255)",
               "mapping": "columns",
-              "customBlockName": ""
+              "customBlockName": "aicolumns1"
             }
           ],
           "settings": {}
@@ -102,7 +102,7 @@
               },
               "color": "rgb(0, 255, 0)",
               "mapping": "defaultContent",
-              "customBlockName": ""
+              "customBlockName": "aidefault2"
             }
           ],
           "settings": {}
