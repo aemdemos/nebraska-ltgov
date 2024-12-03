@@ -22,6 +22,21 @@
                 "numRows": 0
               },
               "color": "rgb(148, 0, 211)",
+              "mapping": "defaultContent",
+              "customBlockName": "aidefault1"
+            },
+            {
+              "id": "box-id-229446221",
+              "x": 0,
+              "y": 84,
+              "width": 1268,
+              "height": 50,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgb(75, 0, 130)",
               "mapping": "header",
               "customBlockName": "header"
             }
@@ -38,26 +53,11 @@
           "id": "2-1",
           "blocks": [
             {
-              "id": "box-id-229446221",
-              "x": 0,
-              "y": 84,
-              "width": 1807,
-              "height": 50,
-              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgb(75, 0, 130)",
-              "mapping": "defaultContent",
-              "customBlockName": "aidefault1"
-            },
-            {
               "id": "box-id-1722200738",
               "x": 49,
               "y": 134,
               "width": 1170,
-              "height": 3191,
+              "height": 2761,
               "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]",
               "layout": {
                 "numCols": 2,
@@ -92,7 +92,7 @@
             {
               "id": "box-id-1722200769",
               "x": 0,
-              "y": 3326,
+              "y": 2895,
               "width": 1268,
               "height": 148,
               "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
