@@ -14,7 +14,7 @@
               "id": "box-id-1722200707",
               "x": 0,
               "y": 0,
-              "width": 1268,
+              "width": 2015,
               "height": 84,
               "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]",
               "layout": {
@@ -22,21 +22,6 @@
                 "numRows": 0
               },
               "color": "rgb(148, 0, 211)",
-              "mapping": "defaultContent",
-              "customBlockName": "aidefault1"
-            },
-            {
-              "id": "box-id-229446221",
-              "x": 0,
-              "y": 84,
-              "width": 1268,
-              "height": 50,
-              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]",
-              "layout": {
-                "numCols": 0,
-                "numRows": 0
-              },
-              "color": "rgb(75, 0, 130)",
               "mapping": "header",
               "customBlockName": "header"
             }
@@ -53,8 +38,23 @@
           "id": "2-1",
           "blocks": [
             {
+              "id": "box-id-229446221",
+              "x": 0,
+              "y": 84,
+              "width": 2015,
+              "height": 50,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/header[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgb(75, 0, 130)",
+              "mapping": "defaultContent",
+              "customBlockName": "aimenu"
+            },
+            {
               "id": "box-id-1722200738",
-              "x": 49,
+              "x": 422,
               "y": 134,
               "width": 1170,
               "height": 2761,
@@ -75,7 +75,7 @@
               ],
               "color": "rgb(0, 0, 255)",
               "mapping": "columns",
-              "customBlockName": "aicolumns2"
+              "customBlockName": "aicolumns1"
             }
           ],
           "settings": {}
@@ -93,7 +93,7 @@
               "id": "box-id-1722200769",
               "x": 0,
               "y": 2895,
-              "width": 1268,
+              "width": 2015,
               "height": 148,
               "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
               "layout": {
@@ -102,7 +102,7 @@
               },
               "color": "rgb(0, 255, 0)",
               "mapping": "defaultContent",
-              "customBlockName": "aidefault2"
+              "customBlockName": "aifooter1"
             }
           ],
           "settings": {}
