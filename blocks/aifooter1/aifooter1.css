@@ -1,0 +1,38 @@
+
+.aifooter1-wrapper {
+    background-color: #000; /* Adjust color as needed */
+    color: #fff; /* Adjust text color as needed */
+    padding: 20px; /* Adjust padding as needed */
+}
+
+.aifooter1 > div > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aifooter1 > div > div > p {
+    flex: 1;
+}
+
+.aifooter1 > div > div > p.button-container {
+    text-align: right;
+}
+
+.aifooter1 > div > div > p:last-child {
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444; /* Optional: add a top border for separation */
+    padding-top: 10px; /* Adjust padding as needed */
+    color: #fff; /* Ensure text color is light */
+}
+
+.button-container a.button {
+    background-color: #444; /* Change button background to a darker shade */
+    color: #fff; /* Change button text color to light */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Optional: rounded corners */
+    text-decoration: none; /* Remove underline */
+}

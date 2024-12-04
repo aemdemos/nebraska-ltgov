@@ -1,0 +1,102 @@
+
+.aicolumns1-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.aicolumns1 > div {
+  display: flex;
+  flex-direction: row;  /* Ensure image and text are side by side */
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 40px;  /* Increased margin for better separation */
+}
+
+.aicolumns1 > div > div {
+  display: flex;
+  flex-direction: row;  /* Ensure nested elements are side by side */
+}
+
+.aicolumns1 > div > div:first-child {
+  flex: 0 0 200px; /* Ensure the left column (image) has a fixed width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;  /* Space between image and text */
+}
+
+.aicolumns1 > div > div:first-child img {
+  max-width: 100%;
+  height: auto;
+}
+
+.aicolumns1 > div > div:first-child p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.aicolumns1 > div > div:last-child {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.aicolumns1 > div > div:last-child h1,
+.aicolumns1 > div > div:last-child h2 {
+  margin-top: 0;
+}
+
+.aicolumns1 > div > div:last-child ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.aicolumns1 > div > div:last-child ul li {
+  margin-bottom: 10px;
+}
+
+.aicolumns1 > div > div:last-child a {
+  color: blue;
+  text-decoration: none;
+}
+
+.aicolumns1 > div > div:last-child a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 900px) {
+  .aicolumns1 > div {
+    align-items: flex-start;
+    flex-direction: row;  /* Ensure row direction for larger screens */
+    gap: 24px;
+  }
+
+  .aicolumns1 > div > div:last-child {
+    margin-left: 20px; /* Ensures space between image and text on larger screens */
+  }
+}
+
+.aicolumns1 h1 {
+  font-size: var(--heading-font-size-xxl);
+  margin-bottom: 20px;  /* Added margin for better separation */
+}
+
+.aicolumns1 h2 {
+  font-size: var(--heading-font-size-xl);
+  margin-top: 30px;  /* Increased margin for better separation */
+  margin-bottom: 10px;  /* Added margin for better separation */
+}
+
+.aicolumns1 ul {
+  margin-top: 10px;  /* Added margin for better separation */
+  margin-bottom: 20px;  /* Added margin for better separation */
+}
+
+.aicolumns1 p, .aicolumns1 li {
+  line-height: 1.6;  /* Improved line height for readability */
+  margin-bottom: 10px;  /* Added margin for better separation */
+}

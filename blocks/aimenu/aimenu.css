@@ -1,0 +1,88 @@
+
+/* Wrapper for the whole menu block */
+.aimenu-container > .aimenu-wrapper {
+  background-color: #1a1a1a; /* Dark background color */
+  padding: 0; /* Remove default padding */
+  max-width: unset; /* Allow content to span entire width */
+}
+
+/* Main block styling */
+.aimenu-wrapper > .aimenu.block {
+  display: flex; /* Using flexbox to align children side by side */
+  justify-content: center; /* Center the content horizontally */
+  align-items: center; /* Center the items vertically */
+}
+
+/* Inner div styling */
+.aimenu-wrapper > .aimenu.block > div > div {
+  display: flex; /* Use flexbox for the inner div to align items horizontally */
+  flex-direction: row; /* Ensure horizontal alignment */
+  align-items: center; /* Center the items vertically */
+}
+
+/* Main menu title */
+.aimenu-wrapper #main-menu {
+  display: none; /* Hide the main menu title */
+}
+
+/* List styling */
+.aimenu-wrapper .aimenu.block ul {
+  display: flex; /* Use flexbox for the list */
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+  align-items: center; /* Center the items vertically */
+}
+
+/* List items styling */
+.aimenu-wrapper .aimenu.block ul > li {
+  margin-right: 25px; /* Adjust space between each menu item */
+  position: relative; /* Needed for dropdown positioning */
+  display: flex; /* Ensure the list items are flex containers */
+  align-items: center; /* Center the items vertically */
+}
+
+/* Links styling */
+.aimenu-wrapper .aimenu.block ul > li > a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 16px; /* Font size */
+  padding: 5px 10px; /* Padding for clickable area */
+  display: block; /* Ensure the link is a block element */
+  line-height: 1; /* Ensure vertical centering */
+}
+
+/* Add dropdown arrow */
+.aimenu-wrapper .aimenu.block ul > li:nth-child(3) > a::after {
+  content: '▼'; /* Use a character for the dropdown arrow */
+  font-size: 8px; /* Adjust the size of the arrow */
+  margin-left: 5px; /* Space between text and arrow */
+  color: white; /* Arrow color */
+  vertical-align: middle; /* Ensure vertical alignment */
+}
+
+/* Dropdown menu styling */
+.aimenu-wrapper .aimenu.block ul > li > ul {
+  display: none; /* Hide dropdown by default */
+  position: absolute; /* Position dropdown absolutely */
+  top: 100%; /* Position it below the parent */
+  left: 0; /* Align it to the left */
+  background-color: #333; /* Dark background for dropdown */
+  list-style: none; /* Remove default list styling */
+  padding: 10px; /* Padding around the dropdown */
+  margin: 0; /* Remove default margin */
+}
+
+/* Dropdown links styling */
+.aimenu-wrapper .aimenu.block ul > li > ul > li > a {
+  color: white; /* White text color */
+  text-decoration: none; /* Remove underline */
+  font-size: 14px; /* Slightly smaller font size */
+  padding: 5px 10px; /* Padding for clickable area */
+  display: block; /* Ensure the link is a block element */
+}
+
+/* Show dropdown on hover */
+.aimenu-wrapper .aimenu.block ul > li:hover > ul {
+  display: block; /* Show the dropdown */
+}
