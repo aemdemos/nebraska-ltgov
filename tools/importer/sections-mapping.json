@@ -23,7 +23,7 @@
               },
               "color": "rgb(148, 0, 211)",
               "mapping": "defaultContent",
-              "customBlockName": "aidefault1"
+              "customBlockName": "aidefault1new"
             },
             {
               "id": "box-id-229446221",
@@ -75,7 +75,7 @@
               ],
               "color": "rgb(0, 0, 255)",
               "mapping": "columns",
-              "customBlockName": "aicolumns1"
+              "customBlockName": "aicolumns1new"
             }
           ],
           "settings": {}
@@ -102,7 +102,7 @@
               },
               "color": "rgb(0, 255, 0)",
               "mapping": "defaultContent",
-              "customBlockName": "aifooter1"
+              "customBlockName": "aifooter1new"
             }
           ],
           "settings": {}
